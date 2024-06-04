@@ -18,10 +18,10 @@ const Disciplines = () => {
                             <div className='text-[10px] md:text-[12px] lg:text-[15px]  h-12 mt-5 lg:ml-10 lg:h-15 l[]underline font-bold rounded text-center  hover:cursor-pointer hover:shadow-xl transition duration-100'>Visual Computing</div>
                         </div>
                     </div>
-                    <div class=" w-2/3 h-[520px] md:h-[650px] lg:h-[750px] bg-gradient-to-br from-[#F2545B] via-[[#87BFFF] to-[#31E981]">
+                    <div class=" w-2/3 h-[520px] md:h-[650px] lg:h-[750px] bg-gradient-to-br from-[#A7E6FF] via-[#3ABEF9] to-[#3572EF]">
                         <div class="flex mb-4">
-                            <div class="flex-1 bg-[#F2545B] border-2 border-red-400 h-[300px] md:h-[400px] lg:h-[500px] rounded shadow">
-                                <ul className='text-[8px] md:text-[12px] lg:text-[15px]'>
+                            <div class="flex-1 bg-[#F6F6F6]] border-2 h-[300px] md:h-[400px] lg:h-[500px] rounded-xl shadow-2xl translate-y-[40%] transition duration-500 hover:scale-125">
+                                <ul className='text-[8px] md:text-[12px] lg:text-[15px] font-mono'>
                                     <li>
                                         <details className='mt-3' open>
                                             <summary className=' text-black text-opacity-100 cursor-pointer font-pt-serif-bold'>Web Developement</summary>
@@ -39,7 +39,7 @@ const Disciplines = () => {
                                                         </ul>
                                                     </details>
                                                     <details open>
-                                                        <summary className='text-black text-opacity-90 cursor-pointer ml-2'>Backend</summary>
+                                                        <summary className='text-black text-opacity-90 cursor-pointer ml-2 '>Backend</summary>
                                                         <ul className='text-black text-opacity-80 ml-5'>
                                                             <li>Node.js</li>
                                                             <li>Golang</li>
@@ -68,16 +68,16 @@ const Disciplines = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div class="flex-1 bg-[#87BFFF] border-2 border-blue-400 h-[200px] md:h-[300px] lg:h-[400px] rounded shadow-lg">
+                            <div class="flex-1 bg-[#F6F6F6]] border-2  h-[200px] md:h-[300px] lg:h-[400px] rounded-2xl shadow-lg translate-y-1/3 transition duration-500 hover:scale-125">
                                 <ul className='text-[8px] md:text-[12px] lg:text-[15px]'>
                                     <li>
                                         <details className='mt-3' open>
-                                            <summary className='text-black text-opacity-100 font-pt-serif-bold cursor-pointer'>Game Dev</summary>
-                                            <ul className='text-black text-opacity-80 ml-2'>
+                                            <summary className='text-black text-opacity-100 font-pt-serif-bold cursor-pointer '>Game Dev</summary>
+                                            <ul className='text-black text-opacity-80 ml-2 font-mono'>
                                                 <li>Game Mathematics</li>
                                                 <li>Game Physics</li>
                                                 <li>Game Engine - Unreal Engine</li>
-                                                <li>Programming Language - C/C++ , Python</li>
+                                                <li>Programming Language - C/C++, Python</li>
                                                 <li>Computer Graphics</li>
                                                 <li>Graphics API - OpenGL, </li>
                                                 <li>Game AI</li>
@@ -86,12 +86,12 @@ const Disciplines = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div class="flex-1 bg-[#31E981] border-2 border-green-400 h-[100px] md:h-[200px] lg:h-[300px] rounded shadow-2xl">
+                            <div class="flex-1 bg-[##F6F6F6]] border-2  h-[100px] md:h-[200px] lg:h-[300px] rounded-xl shadow-2xl transition duration-500 hover:scale-125" >
                                 <ul className='text-[8px] md:text-[12px] lg:text-[15px]'>
                                     <li>
                                         <details className='mt-3' open>
                                             <summary className='text-black text-opacity-100 font-pt-serif-bold cursor-pointer'>Visual Computing</summary>
-                                            <ul className='text-black text-opacity-80 ml-5 mt-1'>
+                                            <ul className='text-black text-opacity-80 ml-5 mt-1 font-mono'>
                                                 <li>Frontent</li>
                                                 <li>Backend</li>
                                                 <li>DevOps</li>

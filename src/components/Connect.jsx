@@ -3,7 +3,9 @@ import React from 'react'
 const Connect = () => {
     return (
         <div className='text-[#202030]'>
-            <div className='  shadow-lg bg-gradient-to-tl from-[#E8F1F2] via-[#F2AF29] to-[#642CA9] max-w-[1600px] mt-[56px] w-full h-full mx-auto rounded-lg flex-col justify-center' >
+            <div className='  shadow-lg bg-gradient-to-tl from-[#E8F1F2] via-[#EEEEEE] to-[#00ADB5] max-w-[1600px] mt-[56px] w-full h-full mx-auto rounded-lg flex-col justify-center transition duration-500' >
+
+
                 <h1 className='font-fatface-reg text-[50px] md:text-[100px] lg:text-[100px] ml-6'>Stay in touch.</h1>
                 <a href="mailto::jaykad982@gmail.com" className='font-game-over bg-white text-[15px] md:text-[25px] lg:text-[25px] ml-6 mt-10 h-12 bg-opacity-10 rounded-md hover:text-white hover:shadow-xl hover:bg-[#642CA9] hover:underline hover:transition-colors duration-200'>Drop me a line.</a>
 
