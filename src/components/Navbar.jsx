@@ -25,9 +25,10 @@ const Navbar = () => {
     };
     return (
 
-        <div div className=' text-[#495867] ' >
-            <ul className='text-sm md:text-base lg:text-lg mt-3 mr-10 md:mt-4 md:mx-3 lg:mt-4 lg:mx-3 flex justify-start font-anaheim font-bold '>
-                <div className='max-w-[1600px] h-[50px] mx-auto items-center flex ml-5 border-2 border-indigo-500/50 bg-[#EAEBED] bg-opacity-80' >
+        <div div className=' text-[#495867]' >
+            <ul className='text-[10px] md:text-base lg:text-lg font-anaheim font-bold '>
+
+                <div className=' h-[50px] mx-auto items-center justify-center flex border-2 border-indigo-500/50 bg-[#EAEBED] bg-opacity-80' >
                     <li className='mx-6 transition duration-100  hover:text-[#F71735] hover:scale-110 hover:underline  hover:cursor-pointer'
                         onClick={() => setActiveSection('Home')}>About</li>
                     <li className='mx-6 transition duration-100  hover:text-[#F71735] hover:scale-110 hover:underline  hover:cursor-pointer'
