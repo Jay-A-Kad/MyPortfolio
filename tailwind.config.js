@@ -14,6 +14,8 @@ module.exports = {
         'fell-english-italic': ['IM Fell English', 'serif'],
         'pt-serif-bold': ['PT Serif', 'serif'],
         'pt-serif-bold-italic': ['PT Serif', 'serif'],
+        'fatface-reg': ['Abril Fatface', ' serif'],
+        'jacquard': ['Jacquard 12', ' system-ui'],
       },
       backgroundImage: {
         'hero-pattern': "url('D:\shmoney\myReps\react-portfolio\react-portfolio\src\Img\background.png')",
