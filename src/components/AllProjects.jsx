@@ -1,0 +1,38 @@
+export const project = [
+    {
+        id: 1,
+        src: "/Kelpie-blogs.gif",
+        title: "Kelpie Blogs.",
+        tags: ["animal", "red", "black"],
+        desc: "A personal blog to document your thoughts using react.js",
+        bg: "#EC6F66",
+        srcCode: "https://github.com/Jay-A-Kad/myBlogs",
+    },
+    {
+        id: 2,
+        src: "/Retro-Snake.gif",
+        title: "Retro Snake Game",
+        tags: ["animal", "red", "black"],
+        desc: "Nostalgic snake game with retro bg , this code generates a snake with random food item when upon collision wil make the snake item grow.",
+        bg: "#f3a183",
+        srcCode: "https://github.com/Jay-A-Kad/portfolio.git",
+    },
+    {
+        id: 3,
+        src: "/detected_faces.png",
+        title: "Detecting faces using haarcascades",
+        tags: ["animal", "gray",],
+        desc: "This project detects still faces either single face or multiple faces with openCv using haarCascades The code detects number of faces in an image and also displays an overlay of green reactangle over those image",
+        bg: "#348AC7",
+        srcCode: "https://github.com/Jay-A-Kad/detecting_faces_using_haarcascades",
+    },
+    {
+        id: 4,
+        src: "/meerkat.jpeg",
+        title: "Space Invader",
+        tags: ["animal", "red", "black"],
+        desc: "Space Invader a classic 1978 arcader shooter game released by Taito in Japan which was the first fixed shooter of it's kind which set the template for this genre. I made this game using pygame module.",
+        bg: "#348AC7",
+        srcCode: "https://github.com/Jay-A-Kad/spaceInvader",
+    },
+]

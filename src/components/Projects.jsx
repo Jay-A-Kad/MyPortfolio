@@ -1,13 +1,17 @@
 import React from 'react'
+import Carousel from './Carousel'
+import Description from './Description'
+
 
 
 const Projects = () => {
     return (
         <div className='text-[#202030]'>
-            <div className='  shadow-lg bg-gradient-to-tr from-[#E8F1F2] to-[#642CA9] max-w-[1600px] mt-[56px] w-full h-[750px] mx-auto rounded-lg flex-col justify-center' >
-
+            <div className='mt-[16px] md:mt-[36px] lg:mt-[56px] h-[520px] md:h-[650px] lg:h-[750px] shadow-lg bg-black max-w-[1600px]  w-full  mx-auto rounded-2xl flex-col justify-center' >
+                <Carousel />
             </div>
         </div>
+
     )
 }
 
