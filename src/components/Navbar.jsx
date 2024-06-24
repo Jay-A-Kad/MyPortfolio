@@ -23,12 +23,29 @@ const Navbar = () => {
                 return <Home />;
         }
     };
+
+
+    const getGradientClasses = () => {
+        switch (activeSection) {
+            case 'Home':
+                return 'bg-gradient-to-r from-fuchsia-500 to-cyan-500 transition-all duration-100';
+            case 'Disciplines':
+                return 'bg-gradient-to-r from-indigo-400 to-cyan-400 transition-all duration-100';
+            case 'Projects':
+                return 'bg-gradient-to-r from-emerald-400 to-cyan-400 transition-all duration-100';
+            case 'Connect':
+                return 'bg-gradient-to-r from-teal-400 to-yellow-200 transition-all duration-100';
+            default:
+                return 'bg-gradient-to-r from-fuchsia-500 to-cyan-500 transition-all duration-100';
+        }
+    };
+
     return (
 
-        <div div className=' text-[#495867]' >
+        <div div className={`text-[#495867] bg-gradient-to-tl ${getGradientClasses()} h-screen`} >
             <ul className='text-[10px] md:text-base lg:text-lg font-anaheim font-bold '>
 
-                <div className=' h-[50px] mx-auto items-center justify-center flex border-2 border-indigo-500/50 bg-[#EAEBED] bg-opacity-80' >
+                <div className=' h-[50px] mx-auto items-center justify-center flex border-2 border-indigo-500/50 bg-[#EAEBED] bg-opacity-80 ' >
                     <li className='mx-6 transition duration-100  hover:text-[#F71735] hover:scale-110 hover:underline  hover:cursor-pointer'
                         onClick={() => setActiveSection('Home')}>About</li>
                     <li className='mx-6 transition duration-100  hover:text-[#F71735] hover:scale-110 hover:underline  hover:cursor-pointer'

@@ -4,14 +4,14 @@ import { ReactTyped } from "react-typed";
 
 const Home = () => {
     return (
-        <div className='text-[#202030]'>
+        <div className='text-[#202030]' >
             <div className='mt-[45px] md:mt-[36px] lg:mt-[56px] h-[550px] md:h-[950px] lg:h-[750px] max-w-[1600px] w-full shadow-lg bg-gradient-to-tr from-[#E8F1F2] to-[#642CA9] mx-auto rounded-lg flex-col justify-center ' >
                 <div class="flex mb-4">
                     <div class="w-2/3">
                         <h2 className='mt-5 text[50px] md:text-[40px] xl:text-[60px] text-[#202030] font-barlow  text-opacity-60 mx-5 ' >hi there, I'm </h2>
                         <h1 className='text[40px] md:text-[40px] xl:text-[60px] text-[#202030] font-barlow text-opacity-60 mx-5 '>Jay Kadam</h1>
                         {/* <ReactTyped strings={['Full-Stack Dev', 'Game Developer', 'Graphics Engineer']} typeSpeed={40} backSpeed={50} loop className='text-[40px] md:text-[50px] xl:text-[80px] font-game-over mx-5 '><input type="text" /></ReactTyped> */}
-                        <ReactTyped strings={['Full-stack Dev', 'Game Developer', 'Graphics Engineer']} typeSpeed={50} backSpeed={60} loop className='font-game-over text[20px] md:text-[40px] xl:text-[60px] text-[#202030] mx-5'></ReactTyped>
+                        <ReactTyped strings={['Full-stack Dev', 'Game Developer', 'Graphics Engineer']} typeSpeed={40} backSpeed={60} loop className='font-game-over text[20px] md:text-[40px] xl:text-[60px] text-[#202030] mx-5'></ReactTyped>
 
 
                         {/* bio */}

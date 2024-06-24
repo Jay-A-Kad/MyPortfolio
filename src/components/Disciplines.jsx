@@ -1,8 +1,10 @@
 import React from 'react'
 
+
+
 const Disciplines = () => {
     return (
-        <div className='text-[#202030] transition-all duration-500'>
+        <div className='text-[#202030] transition-all duration-500 '>
             <div className='mt-[16px] md:mt-[36px] lg:mt-[56px] h-[520px] md:h-[650px] lg:h-[750px] shadow-lg bg-gradient-to-tr from-[#E8F1F2] to-[#FFFFFF] max-w-[1600px]  w-full  mx-auto rounded-2xl flex-col justify-center ' >
                 <div class="flex mb-4">
                     <div class="h-8 md:h-10 xl:h-12 w-1/3 bg-gray-400  ">
@@ -18,7 +20,7 @@ const Disciplines = () => {
                             <div className='text-[10px] md:text-[12px] lg:text-[15px]  h-12 mt-5 lg:ml-10 lg:h-15 l[]underline font-bold rounded text-center  hover:cursor-pointer hover:shadow-xl transition duration-100'>Visual Computing</div>
                         </div>
                     </div>
-                    <div class=" w-2/3 h-[520px] md:h-[650px] lg:h-[750px] bg-gradient-to-br from-[#A7E6FF] via-[#3ABEF9] to-[#3572EF]">
+                    <div class=" w-2/3 h-[520px] md:h-[650px] lg:h-[750px] bg-gradient-to-r from-indigo-400 to-cyan-400">
                         <div class="flex mb-4">
                             <div class="flex-1 bg-[#F6F6F6]] border-2 h-[300px] md:h-[400px] lg:h-[500px] rounded-xl shadow-2xl translate-y-[40%] transition duration-500 hover:scale-125">
                                 <ul className='text-[8px] md:text-[12px] lg:text-[15px] font-mono'>
