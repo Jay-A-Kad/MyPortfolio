@@ -5,7 +5,7 @@ import { ReactTyped } from "react-typed";
 const Home = () => {
     return (
         <div className='text-[#202030]' >
-            <div className='mt-[45px] md:mt-[36px] lg:mt-[56px] h-[550px] md:h-[950px] lg:h-[750px] max-w-[1600px] w-full shadow-lg bg-gradient-to-tr from-[#E8F1F2] to-[#642CA9] mx-auto rounded-lg flex-col justify-center ' >
+            <div className='mt-[45px] md:mt-[36px] lg:mt-[56px] h-[550px] md:h-[950px] lg:h-[750px] max-w-[1600px] w-full shadow-lg bg-gradient-to-tl from-fuchsia-500 to-cyan-500 mx-auto rounded-lg flex-col justify-center ' >
                 <div class="flex mb-4">
                     <div class="w-2/3">
                         <h2 className='mt-5 text[50px] md:text-[40px] xl:text-[60px] text-[#202030] font-barlow  text-opacity-60 mx-5 ' >hi there, I'm </h2>
