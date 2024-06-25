@@ -28,13 +28,13 @@ const Carousel = () => {
                 <div key={idx} className={`${idx === activeImage ? "transition-all duration-500" : "hidden"}`}>
                     <div className='flex' style={{ backgroundColor: `${elem.bg}` }}>
                         <div className='w-2/3'>
-                            <div className='font-fatface-reg font-bold text-[20px] md:text-[30px] lg:text-[40px] ml-6 lg:ml-28'>{elem.title}</div>
+                            <div className='font-fatface-reg font-bold text-[20px] md:text-[30px] lg:text-[60px] ml-6 lg:ml-28'>{elem.title}</div>
                             <div className='mt-2 ml-6 lg:ml-28 text-[10px]'>
                                 {elem.tags.map((tag, index) => (
                                     <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag.trim()}</span>
                                 ))}
                             </div>
-                            <div className='text-[10px] md:text-[15px] xl:text-[18px] font-anaheim text-center mt-10 mr-4 ml-6 lg:ml-28 '>{elem.desc}</div>
+                            <div className='text-[12px] md:text-[15px] xl:text-[22px] font-fell-english-reg mt-10 mr-4 ml-6 lg:ml-28 '>{elem.desc}</div>
                         </div>
                         <div className='w-1/3 mr-2'><img src={elem.src} className=' flex items-center justify-center h-[200px] md:h-[650px] lg:h-[350px] rounded-xl ' alt={elem.title} /></div>
                     </div>
@@ -46,7 +46,7 @@ const Carousel = () => {
                 </div>
                 <div className="w-3/5 flex justify-center text-[10px] lg:text-[20px] h-[20px] lg:h-[30px]">
                     {project[activeImage] && (
-                        <a href={project[activeImage].srcCode} className='bg-indigo-500 w-[80px] lg:w-[120px] rounded-xl text-white flex items-center justify-center hover:bg-indigo-600 cursor-pointer'>Source Code</a>
+                        <a href={project[activeImage].srcCode} className='hover:translate-all duration-500 hover:text-[#7209b7] w-[80px] lg:w-[120px] rounded-xl text-white flex items-center justify-center  cursor-pointer'>Source Code</a>
                     )}
                 </div>
                 <div className="w-1/5 flex justify-end mr-2 md:mr-3 lg:mr-4">
